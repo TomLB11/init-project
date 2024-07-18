@@ -1,7 +1,7 @@
 services:
   apache-php:
     container_name: apache-php
-    image: Tom-php-apache
+    image: tom-php-apache
     build:
       context: .
       dockerfile: Dockerfile
